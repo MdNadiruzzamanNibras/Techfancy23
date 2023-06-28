@@ -1,0 +1,16 @@
+.navFlex{
+display: flex;
+justify-content: space-around;
+}
+
+.menuFlex{
+    display: flex;
+}
+.ui-bullet li{
+list-style: none;
+margin-left: 10px;
+}
+
+.ui-bullet li:hover{
+    color: blue;
+}

@@ -1,22 +1,22 @@
-
+import './Navber.css'
 
 const Navber = () => {
     return (
         
             <nav>
-                <div>
+                <div className='navFlex'>
                     <div>
                         <h1>logo</h1>
                     </div>
                     <div>
 
 
-                        <ul>
-                            <li>Home</li>
-                            <li>Service</li>
-                            <li>Production</li>
-                            <li>Blog</li>
-                            <li>About</li>
+                        <ul className="ui-bullet menuFlex">
+                            <li className="text-xl">Home</li>
+                            <li className="list-none">Service</li>
+                            <li className="list-none">Production</li>
+                            <li className="list-none">Blog</li>
+                            <li className="list-none">About</li>
                         </ul>
                     </div>
                 </div>

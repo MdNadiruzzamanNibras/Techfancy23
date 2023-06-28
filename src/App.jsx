@@ -11,9 +11,7 @@ function App() {
     <div>
       <Navber/>
       <RouterProvider router={router} />
-      <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+      
     </div>
   )
 }
